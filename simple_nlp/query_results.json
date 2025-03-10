@@ -1,0 +1,50 @@
+[
+  {
+    "query": "How do I reset my password?",
+    "initial_response": "go to the login page",
+    "final_response": "go to the login page",
+    "feedback_history": [
+      "good"
+    ],
+    "iterations": 0
+  },
+  {
+    "query": "What's the refund policy?",
+    "initial_response": "We offer refunds within 30 days of purchase",
+    "final_response": "We offer refunds within 30 days of purchase",
+    "feedback_history": [
+      "too vague",
+      "too vague"
+    ],
+    "iterations": 2
+  },
+  {
+    "query": "How do I update my account information?",
+    "initial_response": "after logging in",
+    "final_response": "after logging in",
+    "feedback_history": [
+      "good"
+    ],
+    "iterations": 0
+  },
+  {
+    "query": "How long does shipping take?",
+    "initial_response": "3-5 business days",
+    "final_response": "3-5 business days",
+    "feedback_history": [
+      "too vague",
+      "too vague"
+    ],
+    "iterations": 2
+  },
+  {
+    "query": "How do I fly to the moon?",
+    "initial_response": "I don't have enough information to answer that question. Would you like me to connect you with a human agent?",
+    "final_response": "I'm not confident in my answer. It seems your question might not be covered in my knowledge base. (Additional information: Product Returns\nTo return a product, log into your account, go to Order History, and select\nthe \"Return\" option next to the relevant order. You'll nee...)",
+    "feedback_history": [
+      "not helpful",
+      "too vague"
+    ],
+    "iterations": 2
+  }
+]

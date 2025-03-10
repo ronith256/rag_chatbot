@@ -1,0 +1,75 @@
+2025-03-11 02:16:06 - root - INFO - Starting Customer Support Bot
+2025-03-11 02:16:06 - root - INFO - No valid document provided, creating a sample FAQ
+2025-03-11 02:16:08 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cuda
+2025-03-11 02:16:08 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-11 02:16:38 - root - INFO - Added custom feedback rule for 'password': good
+2025-03-11 02:16:38 - root - INFO - Added custom feedback rule for 'refund': too vague
+2025-03-11 02:16:38 - root - INFO - Added custom feedback rule for 'contact': good
+2025-03-11 02:16:38 - root - INFO - Initializing document: sample_faq.txt
+2025-03-11 02:16:38 - root - INFO - Successfully loaded document: sample_faq.txt
+2025-03-11 02:16:38 - root - INFO - Document split into 7 sections
+2025-03-11 02:16:40 - root - INFO - Computed embeddings for 7 sections
+2025-03-11 02:16:40 - root - INFO - Document initialization completed in 1.73 seconds
+2025-03-11 02:16:40 - root - INFO - Support bot initialized with document: sample_faq.txt
+2025-03-11 02:16:40 - root - INFO - Running support bot with sample queries
+2025-03-11 02:16:40 - root - INFO - Starting query processing with feedback: 'How do I reset my password?'
+2025-03-11 02:16:40 - root - INFO - Processing query: 'How do I reset my password?'
+2025-03-11 02:16:40 - root - INFO - Found relevant section with similarity score: 0.7687
+2025-03-11 02:16:40 - root - INFO - Generated response with confidence: 0.5845
+2025-03-11 02:16:40 - root - INFO - Applied custom feedback rule for 'password': good
+2025-03-11 02:16:40 - root - INFO - Received 'good' feedback - ending refinement loop
+2025-03-11 02:16:40 - root - INFO - Feedback history: ['good']
+2025-03-11 02:16:40 - root - INFO - Initial response: 'go to the login page'
+2025-03-11 02:16:40 - root - INFO - Final response after 0 refinements: 'go to the login page'
+2025-03-11 02:16:40 - root - INFO - Starting query processing with feedback: 'What's the refund policy?'
+2025-03-11 02:16:40 - root - INFO - Processing query: 'What's the refund policy?'
+2025-03-11 02:16:40 - root - INFO - Found relevant section with similarity score: 0.6208
+2025-03-11 02:16:40 - root - INFO - Generated response with confidence: 0.8294
+2025-03-11 02:16:40 - root - INFO - Applied custom feedback rule for 'refund': too vague
+2025-03-11 02:16:40 - root - INFO - Found relevant section with similarity score: 0.6208
+2025-03-11 02:16:40 - root - INFO - Generated response with confidence: 0.8446
+2025-03-11 02:16:40 - root - INFO - Applied custom feedback rule for 'refund': too vague
+2025-03-11 02:16:40 - root - INFO - Found relevant section with similarity score: 0.6208
+2025-03-11 02:16:40 - root - INFO - Generated response with confidence: 0.8446
+2025-03-11 02:16:40 - root - INFO - Feedback history: ['too vague', 'too vague']
+2025-03-11 02:16:40 - root - INFO - Initial response: 'We offer refunds within 30 days of purchase'
+2025-03-11 02:16:40 - root - INFO - Final response after 2 refinements: 'We offer refunds within 30 days of purchase'
+2025-03-11 02:16:40 - root - INFO - Starting query processing with feedback: 'How do I update my account information?'
+2025-03-11 02:16:40 - root - INFO - Processing query: 'How do I update my account information?'
+2025-03-11 02:16:40 - root - INFO - Found relevant section with similarity score: 0.7417
+2025-03-11 02:16:40 - root - INFO - Generated response with confidence: 0.1478
+2025-03-11 02:16:40 - root - INFO - Generated feedback: good
+2025-03-11 02:16:40 - root - INFO - Received 'good' feedback - ending refinement loop
+2025-03-11 02:16:40 - root - INFO - Feedback history: ['good']
+2025-03-11 02:16:40 - root - INFO - Initial response: 'after logging in'
+2025-03-11 02:16:40 - root - INFO - Final response after 0 refinements: 'after logging in'
+2025-03-11 02:16:40 - root - INFO - Starting query processing with feedback: 'How long does shipping take?'
+2025-03-11 02:16:40 - root - INFO - Processing query: 'How long does shipping take?'
+2025-03-11 02:16:40 - root - INFO - Found relevant section with similarity score: 0.7470
+2025-03-11 02:16:40 - root - INFO - Generated response with confidence: 0.6190
+2025-03-11 02:16:40 - root - INFO - Generated feedback: too vague
+2025-03-11 02:16:40 - root - INFO - Found relevant section with similarity score: 0.7470
+2025-03-11 02:16:41 - root - INFO - Generated response with confidence: 0.4886
+2025-03-11 02:16:41 - root - INFO - Generated feedback: too vague
+2025-03-11 02:16:41 - root - INFO - Found relevant section with similarity score: 0.7470
+2025-03-11 02:16:41 - root - INFO - Generated response with confidence: 0.4886
+2025-03-11 02:16:41 - root - INFO - Feedback history: ['too vague', 'too vague']
+2025-03-11 02:16:41 - root - INFO - Initial response: '3-5 business days'
+2025-03-11 02:16:41 - root - INFO - Final response after 2 refinements: '3-5 business days'
+2025-03-11 02:16:41 - root - INFO - Starting query processing with feedback: 'How do I fly to the moon?'
+2025-03-11 02:16:41 - root - INFO - Processing query: 'How do I fly to the moon?'
+2025-03-11 02:16:41 - root - INFO - Found relevant section with similarity score: 0.0827
+2025-03-11 02:16:41 - root - INFO - Low relevance score - might not have relevant information
+2025-03-11 02:16:41 - root - INFO - Query seems out of scope - no relevant section found
+2025-03-11 02:16:41 - root - INFO - Generated feedback: not helpful
+2025-03-11 02:16:41 - root - INFO - Found relevant section with similarity score: 0.0797
+2025-03-11 02:16:41 - root - INFO - Low relevance score - might not have relevant information
+2025-03-11 02:16:41 - root - INFO - Generated feedback: too vague
+2025-03-11 02:16:41 - root - INFO - Found relevant section with similarity score: 0.0827
+2025-03-11 02:16:41 - root - INFO - Low relevance score - might not have relevant information
+2025-03-11 02:16:41 - root - INFO - Feedback history: ['not helpful', 'too vague']
+2025-03-11 02:16:41 - root - INFO - Initial response: 'I don't have enough information to answer that question. Would you like me to connect you with a human agent?'
+2025-03-11 02:16:41 - root - INFO - Final response after 2 refinements: 'I'm not confident in my answer. It seems your question might not be covered in my knowledge base. (Additional information: Product Returns
+To return a product, log into your account, go to Order History, and select
+the "Return" option next to the relevant order. You'll nee...)'
+2025-03-11 02:16:41 - root - INFO - Support bot execution completed successfully

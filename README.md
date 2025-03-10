@@ -31,6 +31,7 @@ The platform is built using **LangChain** and offers an easy-to-use interface to
 For more information, setup and installation instructions, refer to the [documentation](docs/setup/README.md).
 
 ### Query Results (Evaluation Set)
+You can view the chatbot evaluation results in the [answer.md](demo/answer.md).
 
 ### Video Demo
 Watch the video demo showcasing the full functionality of the **Full Agent Creator**.
